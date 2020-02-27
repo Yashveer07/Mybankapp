@@ -11,6 +11,12 @@ public class Account {
 	public void setAccountId(int accountId) {
 		this.accountId = accountId;
 	}
+
+	@Override
+	public String toString() {
+		return "Account [accountId=" + accountId + "]";
+	}
+	
 	
 	
 }
